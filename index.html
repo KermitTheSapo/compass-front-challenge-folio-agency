@@ -13,24 +13,73 @@
 </head>
 <body>
     <header>
-        <figure class="header__title">
-            <img class="figure__icon" src="assets/imgs/home/header/logo-icon.svg" alt="">
-            <img class="figure__title" src="assets/imgs/home/header/folio-title.svg" alt="">
-        </figure>
+        <a class="header__link" href="#">
+            <figure class="link__title">
+                <img class="figure__icon" src="assets/imgs/home/header/logo-icon.svg" alt="">
+                <img class="figure__title" src="assets/imgs/home/header/folio-title.svg" alt="">
+            </figure>
+        </a>
         <nav class="header__nav">
             <ul class="nav__list">
-                <li class="ul__item">About</li>
-                <li class="ul__item">Work</li>
-                <li class="ul__item">Services</li>
-                <li class="ul__item">Jobs</li>
+                <a class="ul__link" href="#">
+                    <li class="ul__item">About</li>
+                </a>
+                <a class="ul__link" href="#">
+                    <li class="ul__item">Work</li>
+                </a>
+                <a class="ul__link" href="#">
+                    <li class="ul__item">Services</li>
+                </a>
+                <a class="ul__link" href="#">
+                    <li class="ul__item">Jobs</li>
+                </a>
+                    <p class="ul__item--notification">2</p>
             </ul>
         </nav>
         <figure class="header__menu">
-            <img class="menu__img" src="assets/imgs/home/header/burguer-icon.svg" alt="">
+            <img onclick="Click()" class="menu__img" src="assets/imgs/home/header/burguer-icon.svg" alt="">
         </figure>
         <div class="header__block">
-            <button class="button__contact">Contact Us</button>
+            <a href="#"><button class="button__contact">Contact Us</button></a>
         </div>        
     </header>
+    <main>
+        <nav class="main__nav--open">
+            <ul class="nav__list--open">
+                <a class="nav__link" href="#">
+                    <li class="ul__item--open">Work</li>
+                </a>
+                <a class="nav__link" href="#">
+                    <li class="ul__item--open">About</li>
+                </a>
+                <a class="nav__link" href="#">
+                    <li class="ul__item--open">Services</li>
+                </a>
+                <a class="nav__link" href="#">
+                    <li class="ul__item--open">Jobs</li>
+                </a>
+            </ul>
+        </nav>
+        <div class="socialMedia">
+            <div class="socialMedia__division">
+                <a href="#">
+                    <div class="socialMedia__border">
+                        <img src="./assets/imgs/home/header/face-icon.svg" alt="">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="socialMedia__border">
+                        <img src="./assets/imgs/home/header/yt-icon.svg" alt="">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="socialMedia__border">
+                        <img src="./assets/imgs/home/header/instagram-icon.svg" alt="">
+                    </div>
+                </a>
+            </div>            
+        </div>
+    </main>
+    <script src="assets/scripts/home.js"></script>
 </body>
 </html>
