@@ -43,7 +43,7 @@
 
 ## About
 
-A website with steps screen
+a website to find jobs and services
 
 ---
 
