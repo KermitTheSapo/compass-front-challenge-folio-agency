@@ -1,0 +1,125 @@
+:root{
+    --secondary-shades: #8B8B8B;
+    --secondary-shades-index: #ADADAD;
+    --primary-color:#5468E7;
+    --list-notification:linear-gradient(180deg, #3A8FFF 0%, #0837AE 100%);
+    --list-menu-open: #595976;
+    --white:#FFFFFF;
+    --dark: #232340;
+    --paragraph: #606060;
+    --btn-shade: #908CFF;
+}
+
+.work{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.work__index{
+    display: flex;
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 600;
+    width: 90%;
+}
+
+.index__counter{
+    margin-right: 20px;
+}
+
+.work__content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;   
+    flex-direction: column;
+    width: 90%;
+}   
+
+.content__title{
+    width: 90%;
+}
+
+.content__paragraph{
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.work__portfolio{
+    width: 100%;
+}
+
+.portfolio__img{
+    height: 400px;
+    width: 90%;    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: left;
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+}
+
+.portfolio__img--one{
+    background-image: url("../imgs/work/portfolio-one.svg");
+}
+.portfolio__img--two{
+    background-image: url("../imgs/work/portfolio-two.svg");
+}
+.portfolio__img--three{
+    background-image: url("../imgs/work/portfolio-three.svg");
+}
+.portfolio__img--four{
+    background-image: url("../imgs/work/portfolio-four.svg");
+}
+.portfolio__img--five{
+    background-image: url("../imgs/work/portfolio-five.svg");
+}
+
+.portfolio__btn{
+    width: 118.04px;
+    height: 28.44px;
+    border-radius: 14.22px;
+    background-color: var(--btn-shade);
+    color: var(--white);
+    font-size: 0.62rem;
+    border: none;
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+.work__description{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 90%;
+    gap: 20px;
+}
+
+.description__title{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.description__paragraph{
+    font-size: 1rem;
+    width: 400;
+    line-height: 28px;
+    width: 65%;
+}
+
+.work__contact{
+    width: 90%;
+    height: 46px;
+    color: var(--white);
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+}
