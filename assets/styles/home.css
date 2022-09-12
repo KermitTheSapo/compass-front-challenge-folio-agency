@@ -267,6 +267,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .whoWeAre__select{
@@ -276,6 +277,13 @@ h1 {
     border-radius: 8px;
     border: none;
     color: var(--white);
+}
+.whoWeAre_years{
+    cursor: pointer;
+}
+
+.computer__item{
+    cursor: pointer;
 }
 
 .computer{
@@ -352,6 +360,9 @@ h1 {
 .number__paragraph{
     font-size: 1.12rem;
     color: var(--white);
+}
+.whatWeDo--desktop{
+    display: none;
 }
 
 @media screen and (min-width:768px) {
@@ -488,7 +499,7 @@ h1 {
     .computer__item:hover{
         color: var(--white);
     }
-    .contents-number{
+    .contents-number{   
         flex-direction: row;
         width: 90%;
     }
@@ -500,6 +511,10 @@ h1 {
     }
     .contents__paragraph{
         width: 100%;
+    }
+    .whatWeDo--desktop{
+        display: flex;
+        flex-direction: column;
     }
 }
 
