@@ -1,0 +1,71 @@
+:root{
+    --secondary-shades: #8B8B8B;
+    --secondary-shades-index: #ADADAD;
+    --primary-color:#5468E7;
+    --list-notification:linear-gradient(180deg, #3A8FFF 0%, #0837AE 100%);
+    --list-menu-open: #595976;
+    --white:#FFFFFF;
+    --dark: #232340;
+    --paragraph: #606060;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.callToAction{
+    background-image: url("../imgs/cta/phone.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.callToAction__index{
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    height: 10%;
+}
+
+.callToAction__counter{
+    margin-right: 20px;
+}
+
+h1{
+    color: var(--white);
+    width: 75%;
+}
+
+.callToAction__content{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.link__button{
+    display: flex;
+    align-self: center;
+    text-decoration: none;
+}
+
+.content__button{
+    height: 46px;
+    width: 143px;
+    border-radius: 8px;
+    background-color: var(--white);
+    color: var(--primary-color);
+    border: none;
+}
+
+@media screen and (min-width:768px){
+    .callToAction{
+        background-image: url("../imgs/cta/phone-desktop.svg");
+    }
+}
