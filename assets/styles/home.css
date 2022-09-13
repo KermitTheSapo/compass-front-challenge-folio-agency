@@ -68,10 +68,6 @@ header{
     bottom: 10px;
 }
 
-/* .header__menu{
-
-} */
-
 .header__block{
     display: none;
     cursor: pointer;
@@ -159,7 +155,7 @@ main {
     height: 50vh;    
 }
 
-h1 {
+.content__title {
     font-size: 3rem;
     font-weight: 700;
     width: 70%;
@@ -411,7 +407,7 @@ h1 {
         border: none;      
         cursor: pointer;   
     }
-    h1{
+    .content__title{
         width: 50%; 
         font-size: 4rem;
     }
