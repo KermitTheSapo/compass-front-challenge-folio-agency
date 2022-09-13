@@ -63,9 +63,11 @@
     background-image: url("../imgs/jobs/paper.svg");
     background-repeat: no-repeat;
     background-position: right;
+    transform: scale(1.1);
 }
 
-.jobs__card:hover > .card__titleNotification {
+
+.jobs__card:hover > .card__title {
     color: var(--white);
     transition: 1s;
 }
@@ -74,8 +76,6 @@
     background-image: url("../imgs/jobs/arrow--white.svg");
     transition: 1s;
 }
-
-
 
 .card__img{
     height: 15px;

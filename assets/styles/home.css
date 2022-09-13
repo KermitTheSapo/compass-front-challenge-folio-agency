@@ -9,6 +9,7 @@
     --white:#FFFFFF;
     --dark: #232340;
     --paragraph: #606060;
+    --line: #FFC7DF;
 }
 
 * {
@@ -300,7 +301,11 @@ h1 {
 .contents-number{
     display: flex;
     align-items: center;
-    flex-direction: column
+    flex-direction: column;
+}
+
+.line{
+    display: none;
 }
 
 .contents{
@@ -502,6 +507,17 @@ h1 {
     .contents-number{   
         flex-direction: row;
         width: 90%;
+        align-self: flex-end;
+    }
+    .line{
+        display: block;
+        height: 56.89px;
+        width: 1.42px;
+        background-color: var(--line);
+        margin-top: 50px;
+        position: relative;
+        right: 50px;
+        align-self: flex-start;
     }
     .contents{
         width: 55%;

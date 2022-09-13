@@ -29,6 +29,7 @@
     align-items: center;
     color: var(--white);
     height: 10%;
+    width: 50%;
 }
 
 .callToAction__counter{
@@ -67,5 +68,23 @@ h1{
 @media screen and (min-width:768px){
     .callToAction{
         background-image: url("../imgs/cta/phone-desktop.svg");
+        background-size: 100% 100%;
+        height: 50vh;
+    }
+    .callToAction__index{
+        align-self: flex-end;
+        align-items: flex-end;
+    }
+    .callToAction__content{
+        width: 50%;
+        align-items: flex-start;
+        align-self: flex-end;
+        height: 90%;
+    }
+    .link__button{
+        align-self: flex-start;
+    }
+    .content__title{
+        font-size: 3rem;
     }
 }

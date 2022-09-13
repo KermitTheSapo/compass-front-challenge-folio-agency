@@ -36,6 +36,7 @@
     justify-content: space-evenly;   
     flex-direction: column;
     width: 90%;
+    gap: 20px;
 }   
 
 .content__title{
@@ -112,9 +113,16 @@
     line-height: 28px;
     width: 65%;
 }
+.contact__box{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    text-decoration: none;
+}
 
 .work__contact{
-    width: 90%;
+    width: 100%;
     height: 46px;
     color: var(--white);
     background-color: var(--primary-color);
@@ -229,25 +237,53 @@
 .workDesktop__portfolio{
     display: flex;
     align-items: center;
-    border: solid;
     width: 90%;
 }
 .portfolioLeft{
     width: 50%;
-    border: solid;
 }
 
 .portfolioRight{
     width: 50%;
-    border: solid;
 }
 
-.portfolioRight__portfolio{
-    border: solid;
+.portfolioRight__title{
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--dark);
+    text-align: start;
 }
 
 .portfolioRight__img{
     width: 100%;
+    
+    background-repeat: no-repeat;
+    background-size: 50vh 50vw;
+    background-position: -80px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.portfolioRight__img--paper{
+    background-image: url("../imgs/work/bento-vol2.svg");
+}
+
+.portfolioRight__img--bento3d{
+    background-image: url("../imgs/work/bento3d.svg");
+}
+
+.portfolioRight__img--bentovol3{   
+    background-image: url("../imgs/work/bento-vol3.svg");
+}
+.portfolioRight__img--sapiens{
+    background-image: url("../imgs/work/sapiens.svg");
+}
+.portfolioRight__paragraph{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 28px;
 }
 
 @media screen and (min-width: 756px) {
@@ -256,5 +292,31 @@
     }
     .workDesktop{
         display: flex;
+        gap: 30px;
+    }
+    .workDesktop__main{
+        justify-content: space-between;
+        width: 95%;
+    }
+    .workDesktop__portfolio{
+        height: 140vh;
+        display: flex;
+        align-items: center;
+    }
+    .portfolioLeft{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80%;
+    }
+    .portfolioRight{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80%;
+        align-self: flex-start;
+    }
+    .portfolioRight__portfolio{
+        height: auto;
     }
 }

@@ -143,6 +143,7 @@ main {
     justify-content: space-evenly;
     flex-direction: column;
     width: 100%;
+    gap:30px
 }
 
 .index{
@@ -252,6 +253,11 @@ main {
     align-items: flex-start;
     width: 90%;
 }
+.achievement__content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 
 .achievement__index{
@@ -291,6 +297,14 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.phone__pagination{
+    margin-top: -60px;
+}
+
+.index__img{
+    display: none;
 }
 
 
@@ -339,7 +353,7 @@ main {
         display: block;
     }
     .index__counter{
-        margin-left: 100px;
+        margin-left: 50px;
     }
     .title-nav{
         flex-direction: row;
@@ -359,6 +373,17 @@ main {
     }
     .achievement{
         flex-direction: row-reverse;
+        border: solid;
+    }
+    .achievement__title{
+        width: 100%;
+    }
+    .achievement__content{
+        justify-content: space-evenly;
+        height: 65vh;
+    }
+    .achievement__index{
+        align-items: center;
     }
 }
 
