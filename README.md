@@ -54,10 +54,10 @@ a website to find jobs and services
 - [ ] Main
     - [X] Page Hero
     - [X] Who we are
-    - [ ] what we do
-    - [ ] Achievement
-    - [ ] Famous Projects
-    - [ ] Call to action
+    - [X] what we do
+    - [X] Achievement
+    - [X] Famous Projects
+    - [X] Call to action
     - [ ] We are hiring
     - [ ] page 404
     - [ ] footer
