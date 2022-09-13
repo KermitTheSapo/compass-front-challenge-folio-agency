@@ -123,3 +123,138 @@
     font-size: 1rem;
     font-weight: 600;
 }
+
+.workDesktop{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.workDesktop__index{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--primary-color);
+}
+
+.index__img{
+    margin-right: 100px;
+}
+.workDesktop__main{
+    display: flex;
+    width: 90%;
+    align-self: flex-end;
+}
+
+.main__content{
+    display: flex;
+    flex-direction: column;
+}
+.main__title{
+    width: 100%;
+    color: var(--dark);
+}
+
+.main__paragraph{
+    width: 75%;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 28px;
+}
+.main__btn{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+.btn__contact{
+    height: 45.51px;
+    width: 118.04px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.workDesktop__featured{
+    background-image: url("../imgs/work/Female-Running-Colorful.svg");
+    background-repeat: no-repeat;
+    background-size:100vh 100vw;
+    background-position: -50px -200px;
+    height: 50vh;
+    width: 100%;
+}
+.featured__content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    gap: 20px;
+}
+
+.featured__btn{
+    width: 149.79px;
+    height: 28.44px;
+    border-radius: 14.22px;
+    border: none;
+    background-color: var(--btn-shade);
+    color: var(--white);
+    font-size: 0.8rem;
+}
+
+.featured__title{
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--dark);
+}
+
+.featured__paragraph{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 28px;
+    color: var(--paragraph);
+    width: 65%;
+}
+.workDesktop{
+    display: none;
+}
+
+.workDesktop__portfolio{
+    display: flex;
+    align-items: center;
+    border: solid;
+    width: 90%;
+}
+.portfolioLeft{
+    width: 50%;
+    border: solid;
+}
+
+.portfolioRight{
+    width: 50%;
+    border: solid;
+}
+
+.portfolioRight__portfolio{
+    border: solid;
+}
+
+.portfolioRight__img{
+    width: 100%;
+}
+
+@media screen and (min-width: 756px) {
+    .work{
+        display: none;
+    }
+    .workDesktop{
+        display: flex;
+    }
+}
