@@ -27,7 +27,7 @@ footer{
     background-image: url(../imgs/footer/line.svg);
     background-repeat: no-repeat;
     gap: 20px;
-    padding-top: 94px;
+    padding-top: 49px;
 }
 .footer__bubble{
     width: 100%;
@@ -103,7 +103,21 @@ footer{
 .footer__bottom{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
+}
+
+.footer__bottom--img{
+    height: 35px;
+}
+
+.footer__bottom--paragraph{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 28px;
+    text-align: center;
+    color: var(--secondary-shades-index);
+    width: 70%;
 }
 .footer__bottom--dropdown{
     width: 90%;
@@ -133,6 +147,27 @@ footer{
 
 .footer__icons--border:hover{
     background-color: var(--primary-color);
+}
+
+.footer__copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__copyright--paragraph{
+    font-size: 0.9rem;
+    color: var(--secondary-shades-index);
+}
+.footer__bottom--paragraphDesktop{
+    display: none;
+}
+
+.footer__nav{
+    display: none;
+}
+.footer__copyright--socialMedia{
+    display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -193,4 +228,58 @@ footer{
     .footer__button{
         display: none;
     }    
+    .footer__bottom--dropdown{
+        display: none;
+    }
+    .footer__nav{
+        width: 60%;
+    }
+    .footer__nav--list{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .nav__list--link{
+        text-decoration: none;
+    }
+    .nav__list--item{
+        color: 1rem;
+        color: var(--secondary-shades);
+        font-weight: 600;
+    }
+    .nav__list--item:hover{
+        color: var(--primary-color);
+    }
+    .footer__icons{
+        display: none;
+    }
+    .footer__copyright{
+        justify-content: space-between;
+        border-top: solid 1px #D8D8D8;
+        width: 100%;
+        height: 7vh;
+    }
+    .footer__copyright--socialMedia{
+        display: flex;
+        align-items: center;
+        width: 30%;
+        justify-content: space-evenly;
+    }
+    .copyright__socialMedia--text{
+        font-weight: 600;
+        font-size: 0.9rem;
+        color: var(--primary-color);
+    }
+    .footer__bottom--paragraph{
+        display: none;
+    }
+    .footer__bottom--paragraphDesktop{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 28px;
+        text-align: center;
+        color: var(--secondary-shades-index);
+        width: 70%;
+    }
 }
