@@ -15,21 +15,23 @@
 
 .callToAction{
     background-image: url("../imgs/cta/phone.svg");
+    background-size: 90% 100%;
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: 60px top;
     height: 110vh;
     width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .callToAction__index{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     color: var(--white);
-    height: 10%;
-    width: 50%;
+    height: 5%;
+    width: 40%;
 }
 
 .callToAction__counter{
@@ -39,10 +41,13 @@
 .callToAction__content--title{
     color: var(--white);
     width: 75%;
+    font-weight: 700;
+    line-height: 56px;
+    font-size: 3rem;
 }
 
 .callToAction__content{
-    width: 100%;
+    width: 80%;
     height: 40%;
     display: flex;
     align-items: flex-end;
@@ -54,6 +59,7 @@
     display: flex;
     align-self: center;
     text-decoration: none;
+    width: 50%;
 }
 
 .content__button{
@@ -63,20 +69,24 @@
     background-color: var(--white);
     color: var(--primary-color);
     border: none;
+    font-weight: 600;
 }
 
 @media screen and (min-width:768px){
     .callToAction{
         background-image: url("../imgs/cta/phone-desktop.svg");
         background-size: 100% 100%;
+        background-position: center;
         height: 50vh;
     }
     .callToAction__index{
         align-self: flex-end;
         align-items: flex-end;
+        height: 10%;
+        width: 55%;
     }
     .callToAction__content{
-        width: 50%;
+        width: 55%;
         align-items: flex-start;
         align-self: flex-end;
         height: 90%;

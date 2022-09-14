@@ -150,7 +150,7 @@
 }
 
 .index__img{
-    margin-right: 100px;
+    margin-right: 40px;
 }
 .workDesktop__main{
     display: flex;
@@ -161,10 +161,14 @@
 .main__content{
     display: flex;
     flex-direction: column;
+    text-align: start;
+    gap: 20px;
 }
 .main__title{
     width: 100%;
     color: var(--dark);
+    font-weight: 700;
+    font-size: 4rem;
 }
 
 .main__paragraph{
@@ -256,7 +260,6 @@
 
 .portfolioRight__img{
     width: 100%;
-    
     background-repeat: no-repeat;
     background-size: 50vh 50vw;
     background-position: -80px;
@@ -265,20 +268,43 @@
     align-items: center;
     justify-content: flex-end;
 }
+.arrow__vol2{
+    margin-top: 150px;
+    margin-right: 30px;
+}
+
+.arrow__sapiens{
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.arrow__bentovol3{
+    margin-top: 120px;
+    margin-right: 30px;
+}
 
 .portfolioRight__img--paper{
     background-image: url("../imgs/work/bento-vol2.svg");
+    background-size: 120% 100%;
+    background-position: right;
 }
 
 .portfolioRight__img--bento3d{
     background-image: url("../imgs/work/bento3d.svg");
+    background-size: 120% 100%;
+    background-position: right;
 }
 
 .portfolioRight__img--bentovol3{   
     background-image: url("../imgs/work/bento-vol3.svg");
+    background-size: 120% 100%;
+    background-position: right;
 }
+
 .portfolioRight__img--sapiens{
     background-image: url("../imgs/work/sapiens.svg");
+    background-size: 120% 100%;
+    background-position: right;
 }
 .portfolioRight__paragraph{
     font-weight: 400;

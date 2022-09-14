@@ -157,7 +157,6 @@ main {
 .index__block{
     display: flex;
     align-items: center;
-    color: var(--primary-color);
 }
 
 .index__counter{
@@ -168,12 +167,8 @@ main {
 .index__counter, .index__title{
     font-size: 0.9rem;
     font-weight: 600;
+    color: var(--primary-color);
 }
-
-
-/* .index__title{
-
-} */
 
 .title-nav{
     width: 85%;
@@ -265,14 +260,15 @@ main {
     width: 90%;
 }
 
-.index__counter{
+.achievement__index--counter{
     font-size: 0.9rem;
     font-weight: 600;
     line-height: 18px;
     color: var(--secondary-shades);
+    margin-right: 15px;
 }
 
-.index__title{
+.achievement__index--title{
     font-size: 0.9rem;
     font-weight: 600;
     line-height: 18px;
@@ -297,6 +293,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 25px;
 }
 
 .phone__pagination{
@@ -373,7 +370,6 @@ main {
     }
     .achievement{
         flex-direction: row-reverse;
-        border: solid;
     }
     .achievement__title{
         width: 100%;
