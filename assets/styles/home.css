@@ -366,6 +366,7 @@ main {
     display: none;
 }
 
+
 @media screen and (min-width:768px) {
     .header__title{
         width: 15%;
@@ -528,6 +529,7 @@ main {
         display: flex;
         flex-direction: column;
     }
+    
 }
 
 @media screen and (min-width:1024px) {
