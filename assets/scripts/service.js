@@ -6,6 +6,7 @@ const socialMedia = document.querySelector(".socialMedia")
 const left = document.querySelector(".navigation__arrowLeft")
 const right = document.querySelector(".navigation__arrowRight")
 const whatWeDo = document.querySelector(".whatWeDo")
+const footer = document.querySelector("footer")
 
 Click = () => {
     if(btn.attributes.src.value === '../assets/imgs/home/header/burguer-icon.svg'){
@@ -15,6 +16,8 @@ Click = () => {
         nav.setAttribute("style", "display: flex")
         socialMedia.setAttribute("style", "display: flex")
         whatWeDo.setAttribute("style", "display: none")
+        footer.setAttribute("style", "display: none")
+
     } else if (btn.attributes.src.value === '../assets/imgs/home/header/open-burger-icon.svg') {
         btn.setAttribute('src', '../assets/imgs/home/header/burguer-icon.svg')
         body.setAttribute("style", "background-color: white")
@@ -22,6 +25,7 @@ Click = () => {
         nav.setAttribute("style", "display: none")
         socialMedia.setAttribute("style", "display: none")
         whatWeDo.setAttribute("style", "display: flex")
+        footer.setAttribute("style", "display: flex")
     }
 }
 

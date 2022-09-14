@@ -19,14 +19,12 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    height: 50vh;
     width: 90%;
     background-color: var(--primary-color);
     border-radius: 24px;
     background-image: url(../imgs/footer/line.svg);
     background-repeat: no-repeat;
-    gap: 20px;
     padding-top: 49px;
 }
 .footer__bubble{
@@ -65,9 +63,14 @@ footer{
     color: var(--white);
 }
 
+.footer__button--link{
+    text-decoration: none;
+    width: 90%;
+}
+
 .footer__btn{
     background-color: var(--white);
-    width: 90%;
+    width: 100%;
     height: 56px;
     border-radius: 8px;
     border: none;
@@ -88,6 +91,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 20px;
 }
 .footer__project{
     width: 90%;
@@ -105,6 +109,8 @@ footer{
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    padding-top: 84px;
+    padding-bottom: 34px;
 }
 
 .footer__bottom--img{
@@ -169,6 +175,14 @@ footer{
 .footer__copyright--socialMedia{
     display: none;
 }
+.footer__top--box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    padding-bottom: 50px;
+}    
 
 @media screen and (min-width: 768px) {
     .footer__logo{
@@ -201,6 +215,7 @@ footer{
         border-right: 2px #ffffff34 solid;
         align-items: center;
         justify-content: center;
+        
     }
     .box__right{
         display: flex;
@@ -257,7 +272,7 @@ footer{
     .footer__copyright{
         justify-content: space-between;
         border-top: solid 1px #D8D8D8;
-        width: 100%;
+        width: 90%;
         height: 7vh;
     }
     .footer__copyright--socialMedia{
@@ -271,6 +286,9 @@ footer{
         font-size: 0.9rem;
         color: var(--primary-color);
     }
+    .copyright__socialMedia--link{
+        text-decoration: none;
+    }
     .footer__bottom--paragraph{
         display: none;
     }
@@ -281,5 +299,22 @@ footer{
         text-align: center;
         color: var(--secondary-shades-index);
         width: 70%;
+    }
+    .footer__text{
+        width: 50%;
+    }
+    .footer__top--box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding-bottom: 50px;
+        width: 100%;
+    }
+    .footer__bottom--paragraphDesktop{
+        display: flex;
+    }
+    .footer__nav{
+        display: flex;
     }
 }
