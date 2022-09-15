@@ -1,16 +1,6 @@
 /* font-family: 'Roboto', sans-serif; */
 
-:root{
-    --secondary-shades: #8B8B8B;
-    --secondary-shades-index: #ADADAD;
-    --primary-color:#5468E7;
-    --list-notification:linear-gradient(180deg, #3A8FFF 0%, #0837AE 100%);
-    --list-menu-open: #595976;
-    --white:#FFFFFF;
-    --dark: #232340;
-    --paragraph: #606060;
-    --line: #FFC7DF;
-}
+
 
 * {
     font-family: 'Roboto', sans-serif;
