@@ -14,6 +14,8 @@
     align-items: center;
     flex-direction: column;
     width: 90%;
+    gap: 20px;
+    padding-bottom: 35px;
 }
 
 .jobs__counter{
@@ -26,6 +28,16 @@
     display: flex;
     font-size: 0.8rem;
     font-weight: 600;
+}
+.jobs__content, .jobs__title{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.jobs__title--name{
+    font-weight: 700;
+    font-size: 2.5rem;
 }
 
 .jobs__paragraph{
@@ -56,25 +68,31 @@
     align-items: center;
     justify-content: space-evenly;
     box-shadow: 10px 10px 10px 10px #EDEDED;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .jobs__card:hover{
-    background-color: var(--dark);
     background-image: url("../imgs/jobs/paper.svg");
-    background-repeat: no-repeat;
-    background-position: right;
+    background-color: var(--dark);
     transform: scale(1.1);
+    transition: 0.5s;
 }
 
+.jobs__card:hover > .card__titleNotification  .card__title {
+    color: var(--white); 
+    transition: 0.5s;
+}
 
 .jobs__card:hover > .card__title {
-    color: var(--white);
-    transition: 1s;
+    color: var(--white); 
+    transition: 0.5s;
 }
 
 .jobs__card:hover > .card__img{
     background-image: url("../imgs/jobs/arrow--white.svg");
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .card__img{
@@ -98,6 +116,7 @@
     font-size: 1rem;
     font-weight: 400;
     width: 80%;
+    line-height: 28px;
 }
 
 .card__titleNotification{
@@ -113,11 +132,12 @@
 @media screen and (min-width: 768px) {
     .jobs{
         flex-direction: row;
+
     }
     .jobs__content{
-        height: 80vh;
+        height: 90vh;
         flex-direction: column;
-        justify-content: space-evenly;
+        align-items: flex-start;
     }
     .jobs__index{
         height: 10%;
@@ -128,5 +148,8 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+    }
+    .jobs__title--name{
+        font-size: 4.8rem;
     }
 }

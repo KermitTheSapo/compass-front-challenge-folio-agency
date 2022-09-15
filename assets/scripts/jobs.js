@@ -15,7 +15,6 @@ Click = () => {
         socialMedia.setAttribute("style", "display: flex")
         jobs.setAttribute("style", "display: none")
         footer.setAttribute("style", "display: none")
-
     } else if (btn.attributes.src.value === '../assets/imgs/home/header/open-burger-icon.svg') {
         btn.setAttribute('src', '../assets/imgs/home/header/burguer-icon.svg')
         body.setAttribute("style", "background-color: white")
