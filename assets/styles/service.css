@@ -179,6 +179,25 @@ main {
 .nav__navigation--off{
     background-color: var(--dark);
 }
+.navigation__arrowLeft{
+    background-image: url("../imgs/service/left-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navigation__arrowRight{
+    background-image: url("../imgs/service/right-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navigation__arrowLeft:hover{
+    background-image: url("../imgs/home/main/who-we-are/left-arrow.svg");
+}
+
+.navigation__arrowRight:hover{
+    background-image: url("../imgs/home/main/who-we-are/right-arrow.svg");
+}
 
 .navigation__arrowLeft, .navigation__arrowRight{
     height: 48px;
@@ -294,6 +313,10 @@ main {
 
 
 @media screen and (min-width:768px) {
+    body{
+        background-image: url("../imgs/service/string.svg");
+        background-repeat: no-repeat;
+    }
     .header__title{
         width: 15%;
     }
@@ -383,6 +406,36 @@ main {
     .ul__item--notification{
         right: 70px;
         bottom: 10px;
+    }
+    .title__main{
+        font-size: 4rem;
+        line-height: 72px;
+    }
+    .serviceCard__services{
+        height: 470px;
+    }
+    .serviceCard__title{
+        font-size: 1.5rem;
+    }
+    .serviceCard__img{
+        width: 50%;
+    }
+    .whatWeDo{
+        gap: 40px;
+    }
+    .achievement{
+        justify-content: space-evenly;
+    }
+    .achievement__content{
+        width: 50%;
+        justify-content: center;
+        gap: 40px;
+    }
+    .achievement__phone{
+        width: 50%;
+    }
+    .achievement__title{
+        font-size: 2rem;
     }
 }
 

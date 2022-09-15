@@ -89,3 +89,14 @@
         font-size: 3rem;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .callToAction{
+        height: 80vh;
+    }
+    .callToAction__content--title{
+        font-size: 4rem;
+        width: 50%;
+        line-height: 72px;
+    }
+}

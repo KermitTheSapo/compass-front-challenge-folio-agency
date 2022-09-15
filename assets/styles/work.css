@@ -1,3 +1,7 @@
+body{
+    background-image: none;
+}
+
 .work{
     display: flex;
     align-items: center;
@@ -298,6 +302,7 @@
     font-weight: 400;
     font-size: 1rem;
     line-height: 28px;
+    color: var(--paragraph);
 }
 
 @media screen and (min-width: 756px) {
@@ -332,5 +337,60 @@
     }
     .portfolioRight__portfolio{
         height: auto;
+    }
+    .featured__btn{
+        background-color: #908CFF;
+    }
+    .featured__next{
+        position: absolute;
+        right: 130px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .main__title{
+        font-size: 5.2rem;
+        width: 80%;
+    }
+    .main__paragraph{
+        font-size: 1.12rem;
+        width: 60%;
+        line-height: 32px;
+    }
+    .btn__contact{
+        height: 64px;
+        width: 166px;
+        font-size: 1.12rem;
+    }
+    .featured__btn{
+        height: 40px;
+        width: 166px;
+        border-radius: 20px;
+        font-size: 0.85rem;
+    }
+    .featured__title{
+        font-size: 2.5rem;
+        line-height: 48px;
+        width: 70%;
+    }
+    .featured__paragraph{
+        font-size: 1.12rem;
+        line-height: 32px;
+        width: 34%;
+    }
+    .workDesktop__featured{
+        background-size:110vh 90vw;
+        background-position: 100px -450px;
+    }
+    .featured__next{
+        right: 550px;
+        top: 550px;
+    }
+    .portfolioRight__title{
+        font-size: 2.5rem;
+    }
+    .portfolioRight__paragraph{
+        font: 1.12rem;
+        width: 60%;
     }
 }

@@ -1,3 +1,7 @@
+body{
+    background-image: none;
+}
+
 .whoWeAre{
     display: flex;
     align-items: center;
@@ -273,6 +277,18 @@
     .ul__item--notification{
         right: 70px;
         bottom: 10px;
+    }
+    .whoWeAre__title{
+        font-size: 4rem;
+        line-height: 72px;
+    }
+    .whoWeAre__arrows{
+        width: 10vw;
+    }
+    .whoWeAre{
+        height: 180vh;
+        background-position: 100px -300px;
+        background-size: 100% 90%;
     }
 }
 

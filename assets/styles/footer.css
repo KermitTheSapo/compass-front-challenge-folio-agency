@@ -328,3 +328,53 @@ footer{
         height: 100%;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    footer{
+        width: 90%;
+    }
+    .footer__top{
+        height: 80vh;
+    }
+    .footer__top--box{
+        height: 50%;
+        justify-content: center;
+        gap: 60px;
+    }
+    .footer__hello{
+        font-size: 1.12rem;
+    }
+    .footer__text{
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 40px;
+        width: 50%;
+    }
+    .footer__project{
+        font-size: 4rem;
+        line-height: 72px;
+    }
+    .right__text{
+        font-size: 2rem;
+        width: 80%;
+    }
+    .footer__bottom--paragraphDesktop{
+        font-size: 1.12rem;
+        width: 50%;
+    }
+    .nav__list--item{
+        font-size: 1.12rem;
+    }
+    .footer__bottom{
+        width: 90%;
+    }
+    .footer__copyright--paragraph{
+        font-size: 0.85rem;
+    }
+    .copyright__socialMedia--text{
+        font-size: 0.85rem;
+    }
+    .socialMedia--img{
+        height: 2.5vh;
+    }
+}
