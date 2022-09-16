@@ -29,7 +29,7 @@
   </a>
 
 <h4 align="center"> 
-	 Status: Doing
+	 Status: Done
 </h4>
 
 <p align="center">
@@ -51,20 +51,20 @@ a website to find jobs and services
 
 - [X] header
     - [X] design responsive
-- [ ] Main
+- [X] Main
     - [X] Page Hero
     - [X] Who we are
     - [X] what we do
     - [X] Achievement
     - [X] Famous Projects
     - [X] Call to action
-    - [ ] We are hiring
-    - [ ] page 404
-    - [ ] footer
-- [ ] Javascript
-    - [ ] interactions
-- [ ] responsive design
-    - [ ] desktop, tablet and mobile
+    - [X] We are hiring
+    - [X] page 404
+    - [X] footer
+- [X] Javascript
+    - [X] interactions
+- [X] responsive design
+    - [X] desktop, tablet and mobile
     
 ---
 
