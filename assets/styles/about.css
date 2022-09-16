@@ -271,6 +271,9 @@ body{
         right: 40px;
         bottom: 10px;
     }
+    .contents-number{
+        height: 30vh;
+    }
 }
 
 @media screen and (min-width:1440px) {
@@ -290,6 +293,7 @@ body{
         background-position: 100px -300px;
         background-size: 100% 90%;
     }
+    
 }
 
 @media screen and (min-width:2560px) {

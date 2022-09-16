@@ -184,7 +184,6 @@ main {
 }
 
 
-
 @media screen and (min-width:768px) {
     .header__title{
         width: 15%;
@@ -265,11 +264,15 @@ main {
     }
     .counter__icon{
         display: block;
-    }
-    
-    
+    }       
 }
-
+@media screen and (min-width: 1024px) {
+    .hero{
+        background-size: 100% 100%;
+        background-position: 0px 0px;
+        height: 85vh;
+    }
+}
 
 @media screen and (min-width: 1440px) {
     .ul__item{

@@ -61,8 +61,8 @@ footer{
     font-size: 2rem;
     line-height: 40px;
     text-align: center;
-    width: 70%;
     color: var(--white);
+    width: 70%;
 }
 
 .footer__button--link{
@@ -95,9 +95,7 @@ footer{
     justify-content: center;
     padding-top: 20px;
 }
-.footer__project{
-    width: 90%;
-}
+
 
 .footer__button{
     display: flex;
@@ -185,6 +183,64 @@ footer{
     width: 100%;
     gap: 20px;
     padding-bottom: 50px;
+}
+
+
+
+@media screen and (min-width: 1440px) {
+    footer{
+        width: 90%;
+    }
+    .footer__top{
+        height: 80vh;
+    }
+    .footer__top--box{
+        height: 50%;
+        justify-content: center;
+        gap: 60px;
+    }
+    .footer__hello{
+        font-size: 1.12rem;
+    }
+    .footer__text{
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 40px;
+        width: 50%;
+    }
+    .footer__project{
+        font-size: 4rem;
+        line-height: 72px;
+    }
+    .right__text{
+        font-size: 2rem;
+        width: 80%;
+    }
+    .footer__bottom--paragraphDesktop{
+        font-size: 1.12rem;
+        width: 50%;
+    }
+    .nav__list--item{
+        font-size: 1.12rem;
+    }
+    .footer__bottom{
+        width: 90%;
+    }
+    .footer__copyright--paragraph{
+        font-size: 0.85rem;
+    }
+    .copyright__socialMedia--text{
+        font-size: 0.85rem;
+    }
+    .socialMedia--img{
+        height: 2.5vh;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .right__text{
+        width: 80%;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -314,8 +370,10 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 20px;
+        justify-content: center;
+        gap: 60px;
         padding-bottom: 50px;
+        height: 45%;
         width: 100%;
     }
     .footer__bottom--paragraphDesktop{
@@ -327,54 +385,16 @@ footer{
     .footer__bottom{
         height: 100%;
     }
+    .socialMedia--img{
+        height: 2.5vh;
+    }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 320px) {
     footer{
         width: 90%;
     }
     .footer__top{
-        height: 80vh;
-    }
-    .footer__top--box{
-        height: 50%;
-        justify-content: center;
-        gap: 60px;
-    }
-    .footer__hello{
-        font-size: 1.12rem;
-    }
-    .footer__text{
-        font-size: 2rem;
-        font-weight: 700;
-        line-height: 40px;
-        width: 50%;
-    }
-    .footer__project{
-        font-size: 4rem;
-        line-height: 72px;
-    }
-    .right__text{
-        font-size: 2rem;
-        width: 80%;
-    }
-    .footer__bottom--paragraphDesktop{
-        font-size: 1.12rem;
-        width: 50%;
-    }
-    .nav__list--item{
-        font-size: 1.12rem;
-    }
-    .footer__bottom{
-        width: 90%;
-    }
-    .footer__copyright--paragraph{
-        font-size: 0.85rem;
-    }
-    .copyright__socialMedia--text{
-        font-size: 0.85rem;
-    }
-    .socialMedia--img{
-        height: 2.5vh;
+        height: 70vh;
     }
 }
