@@ -305,6 +305,67 @@ body{
     color: var(--paragraph);
 }
 
+@media screen and (min-width: 320px) {
+    .portfolio__btn{
+        display: none;
+    }
+    .work__portfolio{
+        width: 90%;
+    }
+    .portfolio__img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 756px) {
+    .work{
+        display: none;
+    }
+    .workDesktop{
+        display: flex;
+        gap: 30px;
+    }
+    .workDesktop__main{
+        justify-content: space-between;
+        width: 95%;
+    }
+    .workDesktop__portfolio{
+        height: 140vh;
+        display: flex;
+        align-items: center;
+    }
+    .portfolioLeft{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80%;
+    }
+    .portfolioRight{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80%;
+        align-self: flex-start;
+    }
+    .portfolioRight__portfolio{
+        height: auto;
+    }
+    .featured__btn{
+        background-color: #908CFF;
+    }
+    .featured__next{
+        position: absolute;
+        right: 130px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .workDesktop__featured{
+        background-size:110vh 90vw;
+        background-position: 100px -280px;
+    }
+}
+
 
 @media screen and (min-width: 1440px) {
     .main__title{
@@ -351,53 +412,5 @@ body{
     .portfolioRight__paragraph{
         font: 1.12rem;
         width: 60%;
-    }
-}
-@media screen and (min-width: 1024px) {
-    .workDesktop__featured{
-        background-size:110vh 90vw;
-        background-position: 100px -280px;
-    }
-}
-
-@media screen and (min-width: 756px) {
-    .work{
-        display: none;
-    }
-    .workDesktop{
-        display: flex;
-        gap: 30px;
-    }
-    .workDesktop__main{
-        justify-content: space-between;
-        width: 95%;
-    }
-    .workDesktop__portfolio{
-        height: 140vh;
-        display: flex;
-        align-items: center;
-    }
-    .portfolioLeft{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 80%;
-    }
-    .portfolioRight{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 80%;
-        align-self: flex-start;
-    }
-    .portfolioRight__portfolio{
-        height: auto;
-    }
-    .featured__btn{
-        background-color: #908CFF;
-    }
-    .featured__next{
-        position: absolute;
-        right: 130px;
     }
 }

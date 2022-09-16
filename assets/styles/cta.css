@@ -80,6 +80,18 @@
     }
 }
 
+@media screen and (min-width: 375px){
+    .callToAction__index{
+        width: 60%;
+    }
+    .callToAction__content--title{
+        width: 90%;
+    }
+    .link__button{
+        width: 80%;
+    }
+}
+
 @media screen and (min-width:768px){
     .callToAction{
         background-image: url("../imgs/cta/phone-desktop.svg");
