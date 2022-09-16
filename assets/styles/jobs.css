@@ -273,4 +273,7 @@
     .card__notification{
         right: 5px;
     }
+    .jobs__link{
+        width: 70%;
+    }
 }
