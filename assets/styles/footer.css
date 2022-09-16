@@ -185,63 +185,31 @@ footer{
     padding-bottom: 50px;
 }
 
+@media screen and (min-width: 280px) {
+    .footer__top{
+        height: 95vh;
+    }
+    .footer__bottom{
+        height: 55vh;
+    }
+    footer{
+        width: 90%;
+    }
+}
 
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 320px) {
     footer{
         width: 90%;
     }
     .footer__top{
-        height: 80vh;
-    }
-    .footer__top--box{
-        height: 50%;
-        justify-content: center;
-        gap: 60px;
-    }
-    .footer__hello{
-        font-size: 1.12rem;
-    }
-    .footer__text{
-        font-size: 2rem;
-        font-weight: 700;
-        line-height: 40px;
-        width: 50%;
-    }
-    .footer__project{
-        font-size: 4rem;
-        line-height: 72px;
-    }
-    .right__text{
-        font-size: 2rem;
-        width: 80%;
-    }
-    .footer__bottom--paragraphDesktop{
-        font-size: 1.12rem;
-        width: 50%;
-    }
-    .nav__list--item{
-        font-size: 1.12rem;
+        height: 70vh;
     }
     .footer__bottom{
-        width: 90%;
-    }
-    .footer__copyright--paragraph{
-        font-size: 0.85rem;
-    }
-    .copyright__socialMedia--text{
-        font-size: 0.85rem;
-    }
-    .socialMedia--img{
-        height: 2.5vh;
+        height: 45vh;
     }
 }
 
-@media screen and (min-width: 1024px) {
-    .right__text{
-        width: 80%;
-    }
-}
 
 @media screen and (min-width: 768px) {
     .footer__logo{
@@ -390,11 +358,90 @@ footer{
     }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 1024px) {
+    .right__text{
+        width: 80%;
+    }
+    .socialMedia--img{
+        height: 2.5vh;
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
     footer{
         width: 90%;
     }
     .footer__top{
-        height: 70vh;
+        height: 80vh;
+    }
+    .footer__top--box{
+        height: 50%;
+        justify-content: center;
+        gap: 60px;
+    }
+    .footer__hello{
+        font-size: 1.12rem;
+    }
+    .footer__text{
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 40px;
+        width: 50%;
+    }
+    .footer__project{
+        font-size: 4rem;
+        line-height: 72px;
+    }
+    .right__text{
+        font-size: 2rem;
+        width: 80%;
+    }
+    .footer__bottom--paragraphDesktop{
+        font-size: 1.12rem;
+        width: 50%;
+    }
+    .nav__list--item{
+        font-size: 1.12rem;
+    }
+    .footer__bottom{
+        width: 90%;
+    }
+    .footer__copyright--paragraph{
+        font-size: 0.85rem;
+    }
+    .copyright__socialMedia--text{
+        font-size: 0.85rem;
+    }
+    .socialMedia--img{
+        height: 25vh;
+    }
+    .copyright__socialMedia--img{
+        height: 3vh;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .footer__bottom--paragraphDesktop{
+        width: 40%;
+        font-size: 1.5rem;
+    }
+    .footer__hello{
+        font-size: 1.5rem;
+    }
+    .footer__logo{
+        height: 5vh;
+    }
+    .copyright__socialMedia--text{
+        font-size: 1.5rem;
+    }
+    .footer__copyright--paragraph{
+        font-size: 1.5rem;
+    }
+    .nav__list--item{
+        font-size: 1.5rem;
+    }
+    .footer__bottom--img{
+        height: 5vh;
     }
 }

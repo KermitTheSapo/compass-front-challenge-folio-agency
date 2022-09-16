@@ -311,6 +311,15 @@ main {
     display: none;
 }
 
+@media screen and (min-width: 280px) {
+    .phone__img{
+        width: 90%;
+    }
+    .serviceCard__services{
+        width: 100%;
+    }
+}
+
 @media screen and (min-width: 320px) {
     .phone__img{
         width: 100%;
@@ -319,6 +328,13 @@ main {
         transform: scale(1.02);
     }
 }
+@media screen and (min-width: 320px) {
+    .serviceCard__services{
+        width: 140%;
+    }
+}
+
+
 
 @media screen and (min-width:768px) {
     body{
@@ -407,6 +423,9 @@ main {
         right: 40px;
         bottom: 10px;
     }
+    .achievement__title{
+        width: 60%;
+    }
     
 }
 
@@ -444,6 +463,9 @@ main {
     }
     .achievement__title{
         font-size: 2rem;
+    }
+    .phone__img{
+        height: 70vh;
     }
 }
 

@@ -304,7 +304,17 @@ body{
     line-height: 28px;
     color: var(--paragraph);
 }
-
+@media screen and (min-width: 280px) {
+    .content__title{
+        font-size: 2rem;
+    }
+    .work__portfolio{
+        width: 90%;
+    }
+    .portfolio__img{
+        width: 100%;
+    }
+}
 @media screen and (min-width: 320px) {
     .portfolio__btn{
         display: none;
@@ -314,6 +324,12 @@ body{
     }
     .portfolio__img{
         width: 100%;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .portfolio__img{
+        width: 90%;
     }
 }
 
@@ -412,5 +428,11 @@ body{
     .portfolioRight__paragraph{
         font: 1.12rem;
         width: 60%;
+    }
+    .portfolioRight__img--sapiens, .portfolioRight__img--bentovol3, .portfolioRight__img--bento3d{
+        background-position: -200px;
+    }
+    .portfolioRight__img--paper{
+        background-position: -220px;
     }
 }
